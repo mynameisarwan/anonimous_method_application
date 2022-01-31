@@ -37,7 +37,8 @@ class _MyAppState extends State<MyApp> {
                   onPressed: () {
                     setState(() {
                       message = "Tombol sudah di tekan";
-                    });
+                    }); //cara menggunkan anonimous method
+                    // adalah (method yang di gunakan hanya untuk satu even)
                   },
                   child: const Text("Click Me"))
             ],
